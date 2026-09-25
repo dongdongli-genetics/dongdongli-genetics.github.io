@@ -396,6 +396,30 @@ h3 {
   color: var(--muted);
 }
 
+.research-summary {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.35rem;
+}
+
+.research-summary section {
+  border-left: 3px solid var(--gold);
+  padding-left: 1rem;
+}
+
+.research-summary h3 {
+  margin-bottom: 0.25rem;
+  color: #263038;
+  font-size: 1.04rem;
+}
+
+.research-summary p {
+  margin-bottom: 0;
+  color: #3e474f;
+  font-size: 0.98rem;
+  line-height: 1.58;
+}
+
 .news-list p {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
